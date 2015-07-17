@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   margin-bottom: 32px;
   padding: 0;
+  text-align: center;
 }
 
 a { text-decoration: none; color: #000000; }
@@ -51,6 +52,26 @@ h1 {
 
 .home-project:first-child {
   margin-top: 64px;
+}
+
+img.rhizome {
+  width: 700px;
+}
+
+img.perfume-poster,
+img.frog,
+img.sushi,
+img.mm-app {
+  width: 1000px;
+}
+
+img.bug,
+img.art-handler,
+img.friends,
+img.do-you-follow,
+img.economy,
+img.perfume-bookmarks {
+  width: 1300px;
 }
 
 .metadata {
@@ -118,7 +139,27 @@ a:hover,
   color: #b19a98;
 }
 
-/* FORMS */
+
+/* BOUNCER */
+
+#bouncer-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#bouncer {
+  z-index:10;
+  position:absolute;
+  top:200px;
+  left:860px;
+}
+
+
+/* FORMS (for mailing list) */
+
     
 textarea, input { outline: none; -webkit-appearance: none; border-radius: 0; }
 
@@ -169,84 +210,21 @@ div.mce_inline_error {
     margin: 0px;
   }
 
-  #main-wrapper {
-    width: 900px;
-    margin-top: 64px;
-  }
-
-  #project-wrapper {
-    width: 900px;
-    padding: 8px;
-  }
-
   #project-essay {
     width: 900px;
     padding: 8px;
-  }
-
-  #clear-buttons {
-    width: 700px;
-  }
-
-  .projects-wrapper {
-    padding: 8px;
-  }
-  
-  #project-wrapper .medium img,
-  #project-wrapper .small img {
-    max-width: 100%;
   }
 
 }
 
 @media screen and (max-width: 900px) {
 
-  #main-wrapper, #project-wrapper {
+  #project-wrapper {
     width: 100%;
-    margin-top: 48px;
   }
 
   #project-essay {
     max-width: 100%;
-  }
-
-  .projects-wrapper,
-  #project-essay {
-    padding: 8px;
-  }
-
-  .grid-wrapper {    
-    margin-left: -8px;
-  }
-
-  #main-wrapper .metadata {
-    display: none;
-  }
-
-  .grid-col {
-    padding-left: 8px;
-    margin-bottom: 6px;
-  }
-
-  #clear-buttons {
-    display: none;
-    width: 143px;
-    margin: 0;
-    margin-left: 100px;
-    bottom: 8px;
-  }
-
-  #home-button {
-    margin-left: 8px;
-    margin-bottom: 8px;
-  }
-
-  #breadcrumb {
-    position: absolute;
-  }
-  
-  #project-wrapper .spacer {
-    margin-top: 4px;
   }
 
 }
