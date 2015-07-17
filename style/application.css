@@ -39,6 +39,7 @@ ul.bullets li { list-style-type: circle; list-style: inside; }
 h1 {
   text-align: center;
   font-size: 12px;
+  margin: 10px;
   margin-bottom: 64px;
 }
 
