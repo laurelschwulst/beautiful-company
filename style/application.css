@@ -51,6 +51,10 @@ h1 {
   margin-top: 64px;
 }
 
+img.mm-objects {
+  width: 300px;
+}
+
 img.rhizome {
   width: 700px;
 }
