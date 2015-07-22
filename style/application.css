@@ -51,11 +51,13 @@ h1 {
   margin-top: 64px;
 }
 
-img.mm-objects {
+img.mm-objects,
+img.extra-small {
   width: 300px;
 }
 
-img.rhizome {
+img.rhizome,
+img.small {
   width: 700px;
 }
 
@@ -63,7 +65,8 @@ img.perfume-poster,
 img.frog,
 img.sushi,
 img.mm-app,
-img.allergy-warning {
+img.allergy-warning,
+img.medium {
   width: 1000px;
 }
 
@@ -73,7 +76,8 @@ img.friends,
 img.do-you-follow,
 img.economy,
 img.perfume-bookmarks,
-img.rhizome-event {
+img.rhizome-event,
+img.large {
   width: 1300px;
 }
 

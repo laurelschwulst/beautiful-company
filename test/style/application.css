@@ -1,0 +1,113 @@
+/* BASE
+--------------------------------------------------------- */
+
+body {
+	margin: 32px;
+	font-family: Verdana;
+	font-size: 24px;
+	line-height: 1.3;
+	background:rgb(181, 148, 103);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+ul {
+	padding-left: 0.9em;
+}
+
+
+/* HOME
+--------------------------------------------------------- */
+
+#plugins {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+	right: 32px;
+	text-align: center;
+	font-style: italic;
+	z-index: -1;
+}
+
+#house {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 85px;
+	text-align: center;
+}
+
+#weather-condition {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 2;
+}
+
+#weather-report {
+	position: absolute;
+	bottom: 35px;
+	left: 32px;
+	right: 32px;
+	text-align: center;
+}
+
+.current-condition {
+	text-transform: lowercase;
+}
+
+.c-tornado { background: url('../weather/rain2.gif'); }
+.c-tropical-storm { background: url('../weather/rain2.gif'); }
+.c-hurricane { background: url('../weather/rain2.gif'); }
+.c-severe-thunderstorms { background: url('../weather/rain2.gif'); }
+.c-thunderstorms { background: url('../weather/rain2.gif'); }
+.c-mixed-rain-and-snow { background: url('../weather/rain2.gif'); }
+.c-mixed-rain-and-sleet { background: url('../weather/rain2.gif'); }
+.c-mixed-snow-and-sleet { background: url('../weather/rain2.gif'); }
+.c-freezing-drizzle { background: url('../weather/rain2.gif'); }
+.c-drizzle { background: url('../weather/rain2.gif'); }
+.c-freezing-rain { background: url('../weather/rain2.gif'); }
+.c-showers-1 { background: url('../weather/rain2.gif'); }
+.c-showers-2 { background: url('../weather/rain2.gif'); }
+.c-snow-flurries { background: url('../weather/rain2.gif'); }
+.c-light-snow-showers { background: url('../weather/rain2.gif'); }
+.c-blowing-snow { background: url('../weather/rain2.gif'); }
+.c-snow { background: url('../weather/rain2.gif'); }
+.c-hail { background: url('../weather/rain2.gif'); }
+.c-sleet { background: url('../weather/rain2.gif'); }
+.c-dust { background: url('../weather/rain2.gif'); }
+.c-foggy { background: url('../weather/rain2.gif'); }
+.c-haze { background: url('../weather/rain2.gif'); }
+.c-smoky { background: url('../weather/rain2.gif'); }
+.c-blustery { background: url('../weather/rain2.gif'); }
+.c-windy { background: url('../weather/rain2.gif'); }
+.c-cold { background: url('../weather/rain2.gif'); }
+.c-cloudy { background: url('../weather/rain2.gif'); }
+.c-mostly-cloudy-night { background: url('../weather/rain2.gif'); }
+.c-mostly-cloudy-day { background: url('../weather/rain2.gif'); }
+.c-partly-cloudy-night { background: url('../weather/rain2.gif'); }
+.c-partly-cloudy-day { background: url('../weather/rain2.gif'); }
+.c-clear-night { background: url('../weather/rain2.gif'); }
+.c-sunny { background: url('../weather/rain2.gif'); }
+.c-fair-night { background: url('../weather/rain2.gif'); }
+.c-fair-day { background: url('../weather/rain2.gif'); }
+.c-mixed-rain-and-hail { background: url('../weather/rain2.gif'); }
+.c-hot { background: url('../weather/rain2.gif'); }
+.c-isolated-thunderstorms { background: url('../weather/rain2.gif'); }
+.c-scattered-thunderstorms-1 { background: url('../weather/rain2.gif'); }
+.c-scattered-thunderstorms-2 { background: url('../weather/rain2.gif'); }
+.c-scattered-showers { background: url('../weather/rain2.gif'); }
+.c-heavy-snow { background: url('../weather/rain2.gif'); }
+.c-scattered-snow-showers { background: url('../weather/rain2.gif'); }
+.c-heavy-snow { background: url('../weather/rain2.gif'); }
+.c-partly-cloudy { background: url('../weather/rain2.gif'); }
+.c-thundershowers { background: url('../weather/rain2.gif'); }
+.c-snow-showers { background: url('../weather/rain2.gif'); }
+.c-isolated-thundershowers { background: url('../weather/rain2.gif'); }
+.c-not-available { background: url('../weather/rain2.gif'); }
