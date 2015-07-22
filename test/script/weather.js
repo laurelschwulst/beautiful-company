@@ -7,7 +7,7 @@ var weather = function(locations){
 	var current_temp = city.heatindex;
 	var current_condition = city.currently;
 	var city_name = city.city;
-	$('.fayes-weather-line').html("It is " + current_temp + " degrees and " + "<span class='current-condition'>" + current_condition + "</span> in " + city_name + ".");;
+	$('.fayes-weather-line').html("It is " + current_temp + " degrees and " + "<span class='current-condition'>" + current_condition + "</span> in " + city_name + " City.");;
 
 	var current_code = city.code;
 
