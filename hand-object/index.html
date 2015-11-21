@@ -1,0 +1,105 @@
+<html>
+
+<head>
+  <title>Hand Object</title>
+  <style>
+
+    img { max-width: 100%; }
+
+    .cube-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin-top: -20px;
+      min-width: 800px;
+    }
+
+    /* a container div */
+    div.cube {
+      position: relative;
+      width:600px;
+      height:600px;
+      max-width: 50%;
+    }
+
+    /* styles for all the cube's sides (top, left, and right) */
+    div.cube-side {
+      width:300px;
+      height:300px;
+      position:absolute;
+    }
+
+    /* the cube's top side */
+    div.top {
+      left:150px;
+      top:0px;
+      background:gray;
+      -moz-transform:
+        rotate(60deg)
+        skew(0deg, -30deg)
+        scale(1, 1.15);
+      -webkit-transform:
+        rotate(60deg)
+        skew(0deg, -30deg)
+        scale(1, 1.15);
+      -o-transform:
+        rotate(60deg)
+        skew(0deg, -30deg)
+        scale(1, 1.15);
+      -ie-transform:
+        rotate(60deg)
+        skew(0deg, -30deg)
+        scale(1, 1.15);
+      transform:
+        rotate(60deg)
+        skew(0deg, -30deg)
+        scale(1, 1.15);
+    }
+
+    /* the cube's left side */
+    div.left {
+      background:gray;
+      top:236px;
+      left:0px;
+      -moz-transform:skew(0deg, 30deg);
+      -webkit-transform:skew(0deg, 30deg);
+      -o-transform:skew(0deg, 30deg);
+      -ie-transform:skew(0deg, 30deg);
+      transform:skew(0deg, 30deg);
+    }
+
+    /* the cube's right side */
+    div.right {
+      background:gray;
+      top:236px;
+      right:0px;
+      -moz-transform:skew(0deg, -30deg);
+      -webkit-transform:skew(0deg, -30deg);
+      -o-transform:skew(0deg, -30deg);
+      -ie-transform:skew(0deg, -30deg);
+      transform:skew(0deg, -30deg);
+    }
+  </style>
+</head>
+
+<body>
+
+<h1></h1>
+
+<div class="cube-container">
+
+  <div class="cube">
+    <div class="cube-side top"></div>
+    <div class="cube-side left"></div>
+    <div class="cube-side right"></div>
+  </div>
+
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/random-three-images.js"></script>
+
+</body>
+
+</html>
