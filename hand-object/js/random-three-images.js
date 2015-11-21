@@ -9,8 +9,10 @@ $(document).ready(function(){
           var image_list = [];
 
           $(data).find("a:contains(" + fileextension + ")").each(function () {
-              var filename = dir + this.href.replace(window.location.host, "").replace("http://", "");
+              var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/tumblr", "/" + dir + "/tumblr");
               image_list.push(filename);
+              console.log(filename);
+              console.log(dir);
           });
 
           console.log(image_list);
